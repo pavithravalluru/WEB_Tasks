@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2 Registrationform</title>
+</head>
+<body>
+    <form action="">
+        <h2 style=text-align:center>MADANAPALLE INSTITUTE OF TECHNOLOGY AND SCIENCE</h2>
+        <div style="text-align: center;">    
+        <label for=""><b>Name:</b></label>
+        <input type="text" style="margin-bottom: 30px;" id="candidatename" name="candidatename" required>
+        <br>
+        <label for="Anumber"><b>Adharnumber:</b></label>
+        <input type="number" id="Anumber" name="Anumber" placeholder="229XXXXXXX">
+        <br>
+        <label for=""><b>Father's Name:</b></label>
+        <input type="text" style="margin-top: 30px;" id="fname"  name="fname" required>
+        <br>
+        <label for=""><b>Mother's Name:</b></label>
+        <input type="text" style="margin-top: 30px;" id="mname"  name="mname" required>
+        <br>
+        <label for=""><b>Gender:</b></label>
+        <input type="radio" id="gender" name="gender"style="margin-top: 30px;" required>male
+        <input type="radio" id="gender" name="gender"style="margin-top: 30px;"required>female
+        <br>
+        <label for=""><b>DOB:</b></label>
+        <input type="date" style="margin-top: 30px;" id="dateofbirth" name="dateofbirth" required>
+        <br>
+        <label for=""><b>Phonenumber:</b></label>
+        <input type="phone" id="pnumber" name="pnumber" style="margin-top: 30px;" required>
+        <br>
+        <label for=""><b>Category:</b></label>
+        <select name="nation" id="nation" style="margin-top: 30px;">
+            <option value="">select</option>
+            <option value="">ST</option>
+            <option value="">SC</option>
+            <option value="">OC</option>
+            <option value="">BC</option>
+        </select>
+        <br>
+        <label for=""><b>Department:</b></label>
+        <select name="medium" id="medium" style="margin-top: 30px;" required>
+            <option value="">select</option>
+            <option value="">ECE</option>
+            <option value="">EEE</option>
+            <option value="">CSE</option>
+            <option value="">Mechanical</option>
+            <option value="">Civil</option>
+        </select>
+        <br>
+        <label for=""><b>10th Percentage:</b></label>
+        <input type="number" id="num" name="num" style="margin-top: 30px;" placeholder="percentage only">
+        <br>
+        <label for=""><b>Inter Percentage:</b></label>
+        <input type="number" id="inum" name="inum" style="margin-top: 30px;" placeholder="percentage only">
+        <br>
+        <label for=""><b>Upload Adhar:</b></label>
+        <input type="file" style="margin-top: 30px;" required>
+        <br>
+        <label for=""><b>Upload Inter marksheet:</b></label>
+        <input type="file" style="margin-top: 30px;" required>
+        <br>
+        <label for=""><b>Address:</b></label>
+        <input type="text" id="address" name="address"placeholder="present address" style="margin-top: 30px;" >
+        <br>
+        <button style="margin-top: 10px;"><b>Submit</b></button>
+        <button style="margin-top: 10px;"><b>Reset</b></button>
+        <button style="margin-top: 10px;"><b>Cancel</b></button>
+        </div>
+    </form>
+</body>
+</html>
