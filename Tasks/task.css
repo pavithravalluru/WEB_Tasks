@@ -1,0 +1,86 @@
+.img{
+    height: 100px;
+    margin-top: 30px;
+}
+.container{
+    margin-top: 50px;
+}
+.b{
+
+    border: 3px solid orange;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+.head{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.h{
+    place-content: center;
+    margin-left: 100px;
+}
+hr{
+    height: 3px;
+    width:600px;
+    background-color: orange;
+    border-radius: 30px;
+}
+.name{
+    margin-left: 30px;
+}
+.n{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1.5px solid orange;
+    border-radius: 2px;
+}
+.n1{
+    margin-left: 55px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1.5px solid orange;
+    border-radius: 2px;
+}
+.n2{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 300px;
+    border: 1.5px solid orange;
+    border-radius: 2px;
+}
+.n3{
+    margin-left: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1.5px solid orange;
+    border-radius: 2px;
+}
+.n4{
+    margin-left: 175px;
+    width: 150px;
+    margin-bottom: 10px;
+    border: 1.5px solid orange;
+    border-radius: 2px;
+    
+}
+button{
+    width: 170px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+.n5{
+    margin-left: 95px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1.5px solid orange;
+    border-radius: 2px;
+}
