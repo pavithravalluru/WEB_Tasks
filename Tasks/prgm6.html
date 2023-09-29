@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <script>
+        function calci(a,b,op)
+        {
+            switch (op) {
+                case '+':
+                    return a+b;
+                    break;
+                    case '-':
+                        return a-b;
+                        break;
+                        case '*':return a*b;
+                        break;
+                        case '%':return a%b;
+                        break;
+            
+                default:
+                    console.log("operator not found")
+                    break;
+            }
+        }
+        let a=parseInt(prompt("enter a"))
+        let b=parseInt(prompt("enter b"))
+        let op='+'
+        console.log(calci(a,b,op));
+    </script>
+</body>
+</html>
